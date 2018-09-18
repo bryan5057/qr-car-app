@@ -1,6 +1,6 @@
 {
-  "name": "Node-Website-EC2-Sample-App",
-  "description": "Sample NodeJs web application",
+  "name": "Node-EC2-Car-Image-Search",
+  "description": "A simple NodeJs web application that searches for car images",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
@@ -10,5 +10,8 @@
   },
   "scripts": {
     "test": "mocha --recursive tests --exit"
+  },
+  "dependencies": {
+    "google-images": "^2.1.0"
   }
 }
