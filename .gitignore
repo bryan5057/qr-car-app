@@ -1,0 +1,16 @@
+/.project
+/.settings
+/target
+/.classpath
+
+/node_modules/*
+
+/obj/*
+/bin/*
+/.vs/*
+
+*.sln
+*.njsproj
+
+*/.vs*
+
