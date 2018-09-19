@@ -11,7 +11,7 @@ phases:
   pre_build:
     commands:
       # Discover and run unit tests in the 'tests' directory
-      - npm test
+      # - npm test
   post_build:
     commands:
       # Remove existing node_modules to clear dev dependencies
@@ -25,8 +25,8 @@ artifacts:
     - template.yml
     - README.md
     - package.json
-    - app.js
     - appspec.yml
     - scripts/*
     - node_modules/**/*
     - public/**/*
+    - src/**/*
