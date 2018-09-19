@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 100px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: rgb(219, 29, 29);
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.dropDownButton {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff));
+  background: -moz-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+  background: -o-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #ffffff 5%, #ffffff 100%);
+  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+  background-color: #ffffff;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  border: 3px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #3d003d;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 0px;
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
